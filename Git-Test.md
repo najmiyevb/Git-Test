@@ -28,8 +28,22 @@ git diff - to see difference between all commits which commited
  8. 1,2,3 numbering list
 
 # Lesson 2 
+## About remote repositories
 
-git branch - command creates branch
-git Merge 
- git checkout -d branch_name
-git log --graph 
+GitHub's collaborative approach to development depends on publishing commits from your local repository to GitHub for other people to view, fetch, and update.
+
+## Creating remote repositories
+You can use the git remote add command to match a remote URL with a name. For example, you'd type the following in the command line:
+
+git remote add origin <REMOTE_URL>
+
+## Cloning with HTTPS URLs
+
+The https:// clone URLs are available on all repositories, regardless of visibility. https:// clone URLs work even if you are behind a firewall or proxy.
+
+## Push operation
+git branch -M master
+git push -u origin master
+
+## Pull operation
+fork - this function provides save project in your repository
